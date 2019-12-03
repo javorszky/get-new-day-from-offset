@@ -5,9 +5,9 @@ SliceOffset is okra's implementation.
 ```
 goos: darwin
 goarch: amd64
-BenchmarkArrayOffset-4   	58311042	        20.7 ns/op
-BenchmarkSliceOffset-4   	78239314	        17.5 ns/op
-BenchmarkMapsOffset-4    	 2802129	       463 ns/op
+BenchmarkArrayOffset-4   	57465946	        19.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSliceOffset-4   	91317076	        13.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMapsOffset-4    	 2813293	       396 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	_/Users/javorszky/goSites/dayoffset	6.238s
+ok  	_/Users/javorszky/goSites/dayoffset	4.891s
 ```
