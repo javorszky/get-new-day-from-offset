@@ -12,6 +12,7 @@ func ArrayOffset(day string, offset int) string {
 	return days[(offset%7+7)%7]
 }
 
+// This is okra's original solution
 // SliceOffset function to get new day using a slice.
 func SliceOffset(day string, offset int) string {
 	days := []string{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}

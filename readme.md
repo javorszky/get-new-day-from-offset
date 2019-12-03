@@ -1,5 +1,7 @@
 # Testing and benchmark results
 
+SliceOffset is okra's implementation.
+
 ```
 goos: darwin
 goarch: amd64
